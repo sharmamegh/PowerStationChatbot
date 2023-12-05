@@ -7,6 +7,12 @@
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
+-- Create the 'PowerAI' database
+CREATE DATABASE IF NOT EXISTS PowerAI;
+
+-- Switch to the 'PowerAI' database
+USE PowerAI;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
