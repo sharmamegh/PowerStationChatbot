@@ -21,15 +21,18 @@ Follow these steps to set up and run PowerStationChatbot locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/PowerStationChatbot.git
+   git clone https://github.com/pranjal-yadav05/PowerStationChatbot.git
    cd PowerStationChatbot
 2. **Install the dependencies:**
     ## Example using npm
     ```bash
-      npm install
-      npm start
+    npm install
 3. **Access the Chatbot:**
-    Open your web browser and go to http://localhost:3000
+    ```bash
+   cd frontend/powerai
+   npm run dev
+
+  Use `Ctrl + Click` on the localhost url that appears in the terminal window.
 
 ## Usage
   **Ask Questions:**
@@ -52,8 +55,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 Special thanks to contributors who have contributed to PowerStationChatbot.
-
-## Contact
-For inquiries or support, contact [your-email@example.com].
 
 # Happy Chatting! 🤖⚡️
